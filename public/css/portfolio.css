@@ -1,0 +1,47 @@
+
+.portfolio-wrapper {
+	margin-top: 4%;
+}
+.portfolio-container {
+    margin: auto;
+	text-align: center;
+	width: 24%;
+	padding: 10px;
+}
+.portfolio-container p {
+	width: 100%; margin: auto; text-align: left;
+}
+.portfolio-container > h3 {
+	margin: 10px auto;
+	color: #5b545b;
+}
+
+@media screen and (max-width: 600px) {
+
+.portfolio-container {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.portfolio img {
+	float: none; margin-right: auto;
+}
+}
+
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 99;
+    background-color: #929395;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#scrollBtn:hover {
+    background-color: #7E8185;
+}

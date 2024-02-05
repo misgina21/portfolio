@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio | Misgina</title>
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="public/css/style.css" />
+		<link rel="stylesheet" href="public/css/portfolio.css" />
+	</head>
+	<body>
+		<header class="banner" id="banner">
+			<nav class="navbar" id="js-navbar">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+					<i class="bx bx-menu"></i>
+				</span>
+				<a href="#" class="logo">MG</a>
+				<ul class="main-nav" id="js-menu">
+					<li>
+						<a href="#banner" class="nav-links">Home</a>
+					</li>
+					<li>
+						<a href="#about" class="nav-links">About Me</a>
+					</li>
+					<li>
+						<a href="#service" class="nav-links">Services</a>
+					</li>
+					<li>
+						<a href="#portfolio" class="nav-links">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contact-section" class="nav-links">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="banner-content">
+				<img
+					src="public/img/portfolio.jpg"
+					alt="About Me Image"
+					class="banner-image"
+				/>
+				<div class="highlight">
+					<h2>
+						Greetings! <br />
+						I am <span class="name">Misgina</span>
+					</h2>
+
+					<h1>Fullstack Web Developer</h1>
+				</div>
+			</div>
+		</header>
+		<button onclick="scrollToTop()" id="scrollBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button>
+
+		<hr />
+		<section class="about-me" id="about">
+			<h1>Who Am I?</h1>
+			<div class="about-me-content">
+				<div class="about-me-text">
+					<p>
+						My name is <strong>Misgina Gebretsadik.</strong> I am a graduating
+						student in the department of Information Technology at Mekelle
+						Institute of Technology. Currently, I am looking for a software
+						development 
+						<strong
+					style="text-transform: none"
+					onmouseover="this.style.textTransform='uppercase'"
+					onmouseout="this.style.textTransform='none'"
+					>internship </strong
+						>role where I can apply my skills into real world problems in a company
+						that will take advantage of my awesome web development skills.
+					</p>
+					<p>
+						But you need to know that I am
+						<strong
+							style="
+								text-transform: none;
+							"
+							>hearing impaired</strong
+						>. Still but, this is not a big problem. I can communicate breezely with
+						anyone through writing and sometimes by reading people's lip.
+					</p>
+				</div>
+			</div>
+		</section>
+		<hr />
+		<section class="services" id="service">
+			<h1>Services I Offer</h1>
+			<div class="service-container">
+				<div class="service-card">
+					<img src="public/img/web2.png" alt="" />
+					<div class="card-text">
+						<h3>Web Development</h3>
+						<p>
+							I develop dynamic, responsive, and user-friendly websites that meet your unique needs from modern designs to robust back-end functionalities.
+						</p>
+					</div>
+				</div>
+				<div class="service-card">
+					<img src="public/img/app1.jpg" alt="" />
+					<div class="card-text">
+						<h3>Mobile App Development</h3>
+						<p>If you are looking for Android/iOS developer, just contact me! I have basic skills of mobile app development with the elegant Dart framework, Flutter.</p>
+					</div>
+				</div>
+				<div class="service-card">
+					<img src="public/img/banner.jpg" alt="" />
+					<div class="card-text">
+						<h3>Teaching</h3>
+						<p>I can teach programming languages such as C, JavaScript and PHP, and basic database query languages such as MySQL.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr />
+		<section class="portfolio-section" id="portfolio">
+			<h1>Portfolio of What I did</h1>
+			<div class="portfolio-wrapper" style="display: flex; flex-wrap: wrap">
+					<div class="portfolio-container">
+						<a href="public/img/profile1.png">
+							<img
+							src="public/img/profile1.png"
+							alt=""
+							width="180"
+							height="180"
+							style="border-radius: 200px; border: thin solid #b2b2be;"
+						/>
+						</a>
+						<h3>E-Commerce App</h3>
+						<p>
+							I developed this app together with my teammates as our mini-project in our 4th year final semester.
+						</p>
+					</div>
+					<div class="portfolio-container">
+						<img
+							src="public/img/saving.png"
+							alt=""
+							width="180"
+							height="180"
+							style="border-radius: 200px;"
+						/>
+						<h3>SACCO App</h3>
+						<p>
+							Worked on a SACCO app as full-time employee for three months at some company.
+						</p>
+					</div>
+					<div class="portfolio-container">
+						<a href="public/img/blog.PNG">
+							<img
+							src="public/img/blog.PNG"
+							alt=""
+							width="180"
+							height="180"
+							style="border-radius: 200px; border: thin solid #b2b2be;"
+						/>
+						</a>
+						<h3>Blog Post</h3>
+						<p>
+							An open source blog post app developed using Django as my course project. Find it <a href="http://misgina.pythonanywhere.com/" target="_blank" style="color:#0831e7; text-decoration: none; font-weight: 600;">here.</a>
+						</p>
+					</div>
+					<div class="portfolio-container">
+						<img
+							src="public/img/graduation-hat.png"
+							alt=""
+							width="180"
+							height="180"
+							style="border-radius: 200px;"
+						/>
+						<h3>School Website</h3>
+						<p>
+							As my first course project in web development when I was 2nd year student.
+						</p>
+					</div>
+			</div>
+		</section>
+		<hr />
+		<section class="skills" id="skill">
+			<h1>Skills I Own</h1>
+			<div class="skill-lists">
+				<ul>
+					<li><img src="public/img/html-icon.png" alt="" title="HTML" /></li>
+					<li><img src="public/img/css-icon.png" alt="" title="CSS" /></li>
+					<li><img src="public/img/tailwind.png" alt="" title="TailwindCSS" /></li>
+					<li><img src="public/img/javascript-39400.png" alt="" /></li>
+					<li><img src="public/img/vue-js-icon.png" alt="" title="Vue.js" /></li>
+					<li><img src="public/img/node-js-icon.png" alt="" title="Node.js" /></li>
+					<li><img src="public/img/git-icon.png" alt="" title="Git" /></li>
+					<li><img src="public/img/mongodb-icon.png" alt="" title="MongoDB" /></li>
+					<li><img src="public/img/laravel-icon.png" alt="" title="Laravel" /></li>
+					<li><img src="public/img/mysql.png" alt="" title="" /></li>
+					<li><img src="public/img/flutter-icon.png" alt="" title="Flutter" /></li>
+				</ul>
+			</div>
+		</section>
+		<hr />
+		<section class="contact" id="contact-section">
+			<div class="contact-form">
+				<h1 style="text-align: left; margin-bottom: 4%">Contact Me</h1>
+				<form>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required />
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required />
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required></textarea>
+					</div>
+					<div class="btn">
+						<button type="button" onclick="sendMail()">Send Message</button>
+					</div>
+				</form>
+			</div>
+			<div class="social-media1">
+				<h2 style="margin-bottom: 3%; color: #3c3f41;">Or follow me on social media</h2>
+				<a href="https://twitter.com/misginaGeb107?t=tECbxwGJ8nrrN1o8AOz_qw&s=09" target="_blank"
+					><i class="bx bxl-twitter" style="color: #2889D5;"></i
+				></a>
+				<a href="https://github.com/misgina21" target="_blank"
+					><i class="bx bxl-github"></i
+				></a>
+				<a
+					href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+					target="_blank"
+					><i class="bx bxl-linkedin" style="color: #1C61DA;""></i
+				></a>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<p>&copy; 2024 - <script> document.write(new Date().getFullYear());</script> - Misgina Gebretsadik. All Rights Reserved.</p>
+		</footer>
+		<script src="public/js/script.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+		></script>
+		<script type="text/javascript">
+			(function(){
+				emailjs.init("tMVrdf8gAh4J6w8nX");
+			})();
+		</script>
+		<script src="public/js/email.js"></script>
+	</body>
+</html>
